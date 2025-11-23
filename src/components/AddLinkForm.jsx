@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const API = "http://localhost:4000";
+const API = "https://tinylink-backend-c4bk.onrender.com";
 
 export default function AddLinkForm({ onCreate }) {
   const [target, setTarget] = useState("");

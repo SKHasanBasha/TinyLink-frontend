@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import "../styles/stats.css";
 
 
-const API = "http://localhost:4000";
+const API = "https://tinylink-backend-c4bk.onrender.com";
 
 export default function Stats() {
   const { code } = useParams();

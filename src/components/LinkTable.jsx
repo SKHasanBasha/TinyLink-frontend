@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/table.css";
 
-const API = "http://localhost:4000";
+const API = "https://tinylink-backend-c4bk.onrender.com";
 
 export default function LinkTable({ links, onDelete }) {
   async function deleteLink(code) {

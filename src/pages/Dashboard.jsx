@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import AddLinkFormCard from "../components/AddLinkFormCard";
 import LinkTable from "../components/LinkTable";
 
-const API = "http://localhost:4000";
+const API = "https://tinylink-backend-c4bk.onrender.com"
 
 export default function Dashboard() {
   const [links, setLinks] = useState([]);
